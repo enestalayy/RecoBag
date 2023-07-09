@@ -14,7 +14,7 @@ This is a website to market suitcases for a start up company. It is my first web
 
 * SCSS 
 
-*JavaScript
+* JavaScript
 
 * PostHTML
 
