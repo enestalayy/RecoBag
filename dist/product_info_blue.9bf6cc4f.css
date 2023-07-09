@@ -1,0 +1,87 @@
+.thumbelina {
+  white-space: nowrap;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+  list-style: none;
+  position: absolute;
+}
+
+.thumbelina li {
+  margin: 0;
+  padding: 5px;
+  line-height: 0;
+}
+
+.thumbelina li img {
+  border: 1px solid #ccc;
+}
+
+.thumbelina li img:hover {
+  border: 1px solid #aaa;
+}
+
+.thumbelina-but {
+  z-index: 1;
+  cursor: pointer;
+  color: #888;
+  text-align: center;
+  vertical-align: middle;
+  background-color: #ccc;
+  border: 1px solid #aaa;
+  font-family: monospace;
+  font-size: 14px;
+  font-weight: bold;
+  position: absolute;
+  box-shadow: 0 0 8px #00000040;
+}
+
+.thumbelina-but:hover {
+  color: #fff;
+  box-shadow: 0 0 8px #00000080;
+}
+
+.thumbelina-but.disabled, .thumbelina-but.disabled:hover {
+  color: #ccc;
+  cursor: default;
+  box-shadow: none;
+  background-color: #efefef;
+}
+
+.thumbelina-but.horiz {
+  width: 20px;
+  height: 119px;
+  line-height: 119px;
+  top: -1px;
+}
+
+.thumbelina-but.horiz.left {
+  border-radius: 5px 0 0 5px;
+  left: -22px;
+}
+
+.thumbelina-but.horiz.right {
+  border-radius: 0 5px 5px 0;
+  right: -22px;
+}
+
+.thumbelina-but.vert {
+  height: 20px;
+  width: 93px;
+  line-height: 20px;
+  left: -1px;
+}
+
+.thumbelina-but.vert.top {
+  border-radius: 5px 5px 0 0;
+  top: -22px;
+}
+
+.thumbelina-but.vert.bottom {
+  border-radius: 0 0 5px 5px;
+  bottom: -22px;
+}
+
+/*# sourceMappingURL=product_info_blue.9bf6cc4f.css.map */
