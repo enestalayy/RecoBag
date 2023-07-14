@@ -7,9 +7,38 @@
     <link rel="stylesheet" href="styles.scss" />
     <script src="https://kit.fontawesome.com/dcc5353d4a.js" crossorigin="anonymous"></script>
   </head>
-  <body> 
-    <include src="home.html"></include>      
-    <script type="module" src="app.js"></script>
-   
-  </body>
+  <section id="home">
+    <body> 
+      <include src="navbar.html"></include>
+
+      <div class="video_home">
+          
+        <video autoplay muted loop id="homepagevideo">
+            <source src="./media/videos/video_home.mp4">
+        </video>
+    </div>
+    <div class="content_home">
+        <img src="/src/media/images/home_page_removebg.png" alt="img">   
+    </div>
+    <ul class="sidebar">
+        <li>
+            <span class="icon"><i class="fa-brands fa-facebook"></i></span>
+            <span class="icon_title">Facebook</span>
+        </li>
+        <li>
+            <span class="icon"><i class="fa-brands fa-instagram"></i></i></span>
+            <span class="icon_title">Instagram</span>
+        </li>
+        <li>
+            <span class="icon"><i class="fa-solid fa-envelope"></i></span>
+            <span class="icon_title">Mail</span>
+        </li>
+        <li>
+            <span class="icon"><i class="fa-brands fa-whatsapp"></i></span>
+            <span class="icon_title">Whatsapp</span>
+        </li>
+    </ul>
+      <script type="module" src="app.js"></script> 
+    </body>
+  </section>
 </html>                         
