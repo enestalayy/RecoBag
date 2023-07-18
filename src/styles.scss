@@ -644,11 +644,7 @@ h2 {
   font-family: "Montserrat-Light";
   .product_content {
     @include spacearound;
-    @media (min-width:768px) {
-      .product_content{
-        flex-direction: row;
-      }
-    }
+    
     .product_images {
       .suitcases {
         display: flex;
