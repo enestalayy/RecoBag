@@ -653,11 +653,16 @@ h2 {
         padding-bottom: 30px;
         width: 90vw;
         .suitcases {
-          .big_img {
-            width: 70vw !important;
-          }
-          .small_img {
-            width: 12vw !important;
+          ul {
+            width: 80vw;
+            li {
+              .big_img {
+                width: 70vw !important;
+              }
+              .small_img {
+                width: 12vw !important;
+              }
+            }
           }
         }
       }
