@@ -698,6 +698,7 @@ h2 {
           width: 40vw;
           li {
             @include center;
+            min-width: 40px;
             margin: 3px;
             border: 1px solid grey;
             border-radius: 2px;
