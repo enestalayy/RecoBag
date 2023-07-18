@@ -696,9 +696,10 @@ h2 {
           justify-content: center;
           overflow-x: scroll !important;
           width: 40vw;
+          min-width: 300px;
           li {
             @include center;
-            min-width: 40px;
+            min-width: 35px;
             margin: 3px;
             border: 1px solid grey;
             border-radius: 2px;
