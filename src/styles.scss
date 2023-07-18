@@ -681,6 +681,7 @@ h2 {
         flex-direction: column;
         .big_img {
           width: 30vw;
+          min-width: 250px;
           height: auto;
         }
         ul {
@@ -702,6 +703,7 @@ h2 {
             }
             .small_img {
               width: 5vw;
+              min-width: 30px;
               height: auto;
             }
             img {
