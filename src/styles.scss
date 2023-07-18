@@ -651,10 +651,10 @@ h2 {
       justify-content: space-around;
       .product_images {
         padding-bottom: 30px;
-        width: 90vw;
+        width: 90vw !important;
         .suitcases {
           ul {
-            width: 80vw;
+            width: 80vw !important;
             li {
               width: 15vw !important;
               padding-left: 0;
@@ -672,7 +672,7 @@ h2 {
         }
       }
       .product_info {
-        width: 60vw;
+        width: 60vw !important;
       }
     }
   }
