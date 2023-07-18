@@ -683,10 +683,12 @@ h2 {
               }
             }
             @media (max-width:768px) {
-              flex-direction: column;
+              .product_content {
+                flex-direction: column;
+              }
+              
               .big_img {
                 width: 80vw;
-                
               }
               .small_img {
                 width: 7vw;
