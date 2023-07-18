@@ -605,6 +605,7 @@ background-color: $white;
     img {
       width: calc(150px + 5vw);
       max-width: 500px;
+      min-width: 30px;
       height: auto;
       padding-bottom: calc(1vh + 1vw);
     }
@@ -653,7 +654,7 @@ h2 {
         width: 90vw;
         .suitcases {
           .big_img {
-            width: 80vw;
+            width: 70vw !important;
           }
           .small_img {
             width: 7vw;
