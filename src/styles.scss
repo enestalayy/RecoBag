@@ -647,7 +647,7 @@ h2 {
     flex-direction: row;
     @media (max-width:768px) {
       .product_content{
-        flex-direction: column;
+        flex-direction: column !important;
       }
     }
     .product_images {
