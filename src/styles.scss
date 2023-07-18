@@ -648,6 +648,7 @@ h2 {
     .product_images {
       .suitcases {
         display: flex;
+        align-items: center;
         flex-direction: column;
         .big_img {
           width: 30vw;
