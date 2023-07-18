@@ -647,22 +647,22 @@ h2 {
       display: flex;
       flex-direction: column;
       align-items: center;
-      justify-content: space-around
-    }
-    
-    .big_img {
-      width: 80vw;
-    }
-    .small_img {
-      width: 7vw;
-    }
-    .product_images {
-      padding-bottom: 30px;
-      width: 90vw;
-    }
-    .product_info {
-      width: 60vw;
-
+      justify-content: space-around;
+      .product_images {
+        padding-bottom: 30px;
+        width: 90vw;
+        .suitcases {
+          .big_img {
+            width: 80vw;
+          }
+          .small_img {
+            width: 7vw;
+          }
+        }
+      }
+      .product_info {
+        width: 60vw;
+      }
     }
   }
   .product_content {
