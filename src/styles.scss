@@ -642,6 +642,29 @@ h2 {
   padding-left: calc(4vw + 4vh);
   padding-right: calc(4vw + 4vh);
   font-family: "Montserrat-Light";
+  @media (max-width:768px) {
+    .product_content{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around
+    }
+    
+    .big_img {
+      width: 80vw;
+    }
+    .small_img {
+      width: 7vw;
+    }
+    .product_images {
+      padding-bottom: 30px;
+      width: 90vw;
+    }
+    .product_info {
+      width: 60vw;
+
+    }
+  }
   .product_content {
     @include spacearound;
     
@@ -682,29 +705,7 @@ h2 {
                 transition: 0.3s all ease;
               }
             }
-            @media (max-width:768px) {
-              .product_content{
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                justify-content: space-around
-              }
-              
-              .big_img {
-                width: 80vw;
-              }
-              .small_img {
-                width: 7vw;
-              }
-              .product_images {
-                padding-bottom: 30px;
-                width: 90vw;
-              }
-              .product_info {
-                width: 60vw;
-        
-              }
-            }
+            
           }
         }
 
