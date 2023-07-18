@@ -656,6 +656,10 @@ h2 {
           ul {
             width: 80vw;
             li {
+              padding-left: 0;
+              padding-right: 0;
+              margin-left: 0;
+              margin-right: 0;
               .big_img {
                 width: 70vw !important;
               }
