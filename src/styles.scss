@@ -692,6 +692,7 @@ h2 {
       align-items: flex-start;
       justify-content: center;
       width: 30vw;
+      min-width: 200px;
       font-family: "Montserrat-Light";
       
       .properties {
@@ -702,11 +703,19 @@ h2 {
     }
     @media (max-width:768px) {
       flex-direction: column;
+      .big_img {
+        width: 80vw;
+        
+      }
+      .small_img {
+        width: 7vw;
+      }
       .product_images {
         padding-bottom: 30px;
+        width: 90vw;
       }
       .product_info {
-        width: 30vw;
+        width: 60vw;
 
       }
     }
