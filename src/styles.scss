@@ -654,13 +654,10 @@ h2 {
         width: 90vw !important;
         .suitcases {
           ul {
-            width: 80vw !important;
+            width: 85vw !important;
             li {
               width: 8vw !important;
-              padding-left: 0;
-              padding-right: 0;
-              margin-left: 0;
-              margin-right: 0;
+              margin: 2px !important;
               .big_img {
                 width: 70vw !important;
               }
